@@ -26,7 +26,7 @@ while is_game_on:
     time.sleep(0.1)
     snake.move()
     if snake.head.distance(food) < 15:
-        print("yoo")
+        food.refresh()
 
 
 
